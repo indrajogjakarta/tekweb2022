@@ -8,19 +8,21 @@ body {
 	background-color: #eff1f2;
 	font-family: sans-serif;
 }
-
+header h1 a {
+    transition: 0,3s;
+}
 .content {
   grid-area: content;
 }
 .sidebar{
   grid-area: sidebar;
   background: linear-gradient(to right, rgba(200,107,142,1), rgba(218,105,250,1),
-   rgba(110,125,253,1)) ;
+   rgb(213, 213, 218)) ;
   justify-content: center;
 }
 .footer {
   grid-area: footer;
-  background: white;
+  background: rgb(98, 97, 97);
 }
 .container {
   font-size: 1.5em;
@@ -137,7 +139,7 @@ footer p {
 	  flex-direction: column;
   }
   .sidebar{
-	  background: linear-gradient( rgb(226, 151, 10), rgb(240, 202, 78),
+	  background: linear-gradient( rgb(149, 148, 147), rgb(240, 202, 78),
 	  rgba(110,125,253,1)) ;
 	  padding-top: 10em;
   }
