@@ -1,0 +1,74 @@
+body {
+    min-height: 3000px;
+}
+.jumbotron {
+    padding-top: 2rem ;
+    background-color: #b1b1b1;
+}
+
+#project {
+    background-color: #929090;
+}
+
+section .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+section .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+section .title::after{
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 0 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+.skill-container {
+    width: 100%;
+    background-color: #f3f3f3;
+}
+.skill {
+    padding: 15px;
+    text-align: right;
+    color: white;
+}
+
+.html {
+    background-color: #007bff; /* Blue */
+    width: 90%
+}
+
+.css {
+    background-color: #dc3545; /* Red */
+    width: 80%;
+}
+
+.js {
+    background-color: #ffc107; /* Yellow */
+    width: 50%;
+}
